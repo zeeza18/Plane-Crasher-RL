@@ -1,0 +1,16 @@
+# Core Deep Learning
+--find-links https://download.pytorch.org/whl/cu124
+torch==2.2.0
+torchvision==0.17.0
+torchaudio==2.2.0
+
+# Environment and Simulation
+gymnasium==0.29.1
+pygame==2.5.2
+numpy==1.24.3
+
+# Visualization and Logging
+matplotlib==3.8.2
+tensorboard==2.15.1
+
+# Save this as requirements.txt
