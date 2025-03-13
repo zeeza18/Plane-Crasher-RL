@@ -1,0 +1,68 @@
+======== FLAPPY BIRD DQN TRAINING SUMMARY ========
+
+Total Episodes: 2500
+Best Score (Buildings Passed): 29
+Best 100-Episode Average: 17.53
+Final Exploration Rate (Epsilon): 0.0100
+
+Episodes 0-249:
+  Avg Buildings Passed: 0.84
+  Max Buildings Passed: 13
+  Avg Steps: 106.09
+  Max Steps: 835
+
+Episodes 250-499:
+  Avg Buildings Passed: 2.68
+  Max Buildings Passed: 17
+  Avg Steps: 225.82
+  Max Steps: 1036
+
+Episodes 500-749:
+  Avg Buildings Passed: 6.30
+  Max Buildings Passed: 20
+  Avg Steps: 440.28
+  Max Steps: 1178
+
+Episodes 750-999:
+  Avg Buildings Passed: 7.88
+  Max Buildings Passed: 24
+  Avg Steps: 532.76
+  Max Steps: 1356
+
+Episodes 1000-1249:
+  Avg Buildings Passed: 10.39
+  Max Buildings Passed: 29
+  Avg Steps: 667.28
+  Max Steps: 1562
+
+Episodes 1250-1499:
+  Avg Buildings Passed: 14.01
+  Max Buildings Passed: 27
+  Avg Steps: 869.52
+  Max Steps: 1498
+
+Episodes 1500-1749:
+  Avg Buildings Passed: 10.25
+  Max Buildings Passed: 28
+  Avg Steps: 666.22
+  Max Steps: 1522
+
+Episodes 1750-1999:
+  Avg Buildings Passed: 11.45
+  Max Buildings Passed: 27
+  Avg Steps: 729.91
+  Max Steps: 1481
+
+Episodes 2000-2249:
+  Avg Buildings Passed: 16.55
+  Max Buildings Passed: 29
+  Avg Steps: 993.36
+  Max Steps: 1562
+
+Episodes 2250-2499:
+  Avg Buildings Passed: 11.48
+  Max Buildings Passed: 25
+  Avg Steps: 728.30
+  Max Steps: 1398
+
+======== END OF SUMMARY ========
