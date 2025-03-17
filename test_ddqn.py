@@ -144,8 +144,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Test a trained Double DQN agent on FlappyBird')
     
     # Add various command-line options with defaults
-    parser.add_argument('--model', type=str, default='checkpoints_ddqn\model_episode_2300.pth',
-                        help='Path to the model checkpoint (default: checkpoints_ddqn\model_episode_2300.pth)')
+    parser.add_argument('--model', type=str, default='checkpoints_ddqn\model_episode_1200.pth',
+                        help='Path to the model checkpoint (default: checkpoints_ddqn\model_episode_1200.pth)')
     parser.add_argument('--episodes', type=int, default=5,
                         help='Number of episodes to run (default: 5)')
     parser.add_argument('--no-render', action='store_true',
