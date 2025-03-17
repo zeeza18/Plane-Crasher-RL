@@ -30,7 +30,6 @@ python -m venv plane_rl_env
 # Activate the virtual environment
 # Windows
 plane_rl_env\Scripts\activate
-
 # MacOS/Linux
 source plane_rl_env/bin/activate
 ```
@@ -56,6 +55,7 @@ To train **DQN**, run:
 ```bash
 python train_dqn.py
 ```
+
 To train **DDQN**, run:  
 ```bash
 python train_ddqn.py
@@ -68,6 +68,7 @@ To test a trained **DQN** model:
 ```bash
 python test_dqn.py
 ```
+
 To test a trained **DDQN** model:  
 ```bash
 python test_ddqn.py
@@ -102,14 +103,14 @@ Plane-Crasher-RL/
 │── .gitignore                   # Ignored files for Git
 │── LICENSE                      # Project license
 │── README.md                    # Project documentation
-│── __init__.py                   # Initialization file
-│── requirements.txt              # Required dependencies
-│── sound_manager.py              # Manages in-game sound effects
-│── test_dqn.py                   # Testing script for DQN
-│── test_ddqn.py                  # Testing script for DDQN
-│── thrust_effect.py              # Thrust effects for plane physics
-│── train_dqn.py                  # Training script for DQN
-│── train_ddqn.py                 # Training script for DDQN
+│── __init__.py                  # Initialization file
+│── requirements.txt             # Required dependencies
+│── sound_manager.py             # Manages in-game sound effects
+│── test_dqn.py                  # Testing script for DQN
+│── test_ddqn.py                 # Testing script for DDQN
+│── thrust_effect.py             # Thrust effects for plane physics
+│── train_dqn.py                 # Training script for DQN
+│── train_ddqn.py                # Training script for DDQN
 ```
 
 ---
@@ -128,10 +129,32 @@ The main difference in performance can be attributed to DQN's overestimation bia
 ---
 
 ## **📈 Expected Results**
+
 During training, the model will show a **mountain-like pattern** in performance graphs due to environmental updates:  
 - **DQN achieves higher peak scores but takes longer to adapt**  
 - **DDQN adapts faster but shows a steadier increase in scores**  
 - **Both algorithms undergo performance drops and recover as they learn**  
+
+## **🎥 Model Demonstrations**
+
+<div style="display: flex; justify-content: space-between;">
+  <div style="width: 48%;">
+    <h3 align="center">DQN Model Performance</h3>
+    <p align="center">
+      <a href="assets/sprites/DQN_VIDEO.mp4">
+        <img src="https://github.com/zeeza18/Plane-Crasher-RL/raw/main/assets/sprites/dqn_thumbnail.png" width="100%" alt="DQN Demo">
+      </a>
+    </p>
+  </div>
+  <div style="width: 48%;">
+    <h3 align="center">DDQN Model Performance</h3>
+    <p align="center">
+      <a href="assets/sprites/DDQN_VIDEO.mp4">
+        <img src="https://github.com/zeeza18/Plane-Crasher-RL/raw/main/assets/sprites/ddqn_thumbnail.png" width="100%" alt="DDQN Demo">
+      </a>
+    </p>
+  </div>
+</div>
 
 ---
 
