@@ -135,13 +135,6 @@ During training, the model will show a **mountain-like pattern** in performance 
 - **DDQN adapts faster but shows a steadier increase in scores**  
 - **Both algorithms undergo performance drops and recover as they learn**  
 
-## **🎥 Model Demonstrations**
-
-https://user-images.githubusercontent.com/zeeza18/Plane-Crasher-RL/assets/sprites/DQN_VIDEO.mp4
-
-https://user-images.githubusercontent.com/zeeza18/Plane-Crasher-RL/assets/sprites/DDQN_VIDEO.mp4
-
----
 
 ## **🛠️ Future Enhancements**
 - **Extend training beyond 2,500 episodes** to analyze long-term performance  
