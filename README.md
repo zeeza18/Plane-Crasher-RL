@@ -137,11 +137,9 @@ During training, the model will show a **mountain-like pattern** in performance 
 
 ## **🎥 Model Demonstrations**
 
-### DQN Model Performance
-[![DQN Model Performance](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+https://user-images.githubusercontent.com/zeeza18/Plane-Crasher-RL/assets/sprites/DQN_VIDEO.mp4
 
-### DDQN Model Performance
-[![DDQN Model Performance](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+https://user-images.githubusercontent.com/zeeza18/Plane-Crasher-RL/assets/sprites/DDQN_VIDEO.mp4
 
 ---
 
