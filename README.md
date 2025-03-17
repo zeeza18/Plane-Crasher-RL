@@ -139,16 +139,18 @@ During training, the model will show a **mountain-like pattern** in performance 
 
 ### DQN Model Performance
 <p align="center">
-  <a href="assets/sprites/DQN_VIDEO.mp4">
-    <img src="assets/sprites/dqn_thumbnail.png" width="80%" alt="DQN Demo">
-  </a>
+  <video width="80%" controls>
+    <source src="assets/sprites/DQN_VIDEO.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </p>
 
 ### DDQN Model Performance
 <p align="center">
-  <a href="assets/sprites/DDQN_VIDEO.mp4">
-    <img src="assets/sprites/ddqn_thumbnail.png" width="80%" alt="DDQN Demo">
-  </a>
+  <video width="80%" controls>
+    <source src="assets/sprites/DDQN_VIDEO.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
 </p>
 
 ---
