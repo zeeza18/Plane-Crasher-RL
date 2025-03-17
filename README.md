@@ -137,24 +137,19 @@ During training, the model will show a **mountain-like pattern** in performance 
 
 ## **🎥 Model Demonstrations**
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="width: 48%;">
-    <h3 align="center">DQN Model Performance</h3>
-    <p align="center">
-      <a href="assets/sprites/DQN_VIDEO.mp4">
-        <img src="https://github.com/zeeza18/Plane-Crasher-RL/raw/main/assets/sprites/dqn_thumbnail.png" width="100%" alt="DQN Demo">
-      </a>
-    </p>
-  </div>
-  <div style="width: 48%;">
-    <h3 align="center">DDQN Model Performance</h3>
-    <p align="center">
-      <a href="assets/sprites/DDQN_VIDEO.mp4">
-        <img src="https://github.com/zeeza18/Plane-Crasher-RL/raw/main/assets/sprites/ddqn_thumbnail.png" width="100%" alt="DDQN Demo">
-      </a>
-    </p>
-  </div>
-</div>
+### DQN Model Performance
+<p align="center">
+  <a href="assets/sprites/DQN_VIDEO.mp4">
+    <img src="assets/sprites/dqn_thumbnail.png" width="80%" alt="DQN Demo">
+  </a>
+</p>
+
+### DDQN Model Performance
+<p align="center">
+  <a href="assets/sprites/DDQN_VIDEO.mp4">
+    <img src="assets/sprites/ddqn_thumbnail.png" width="80%" alt="DDQN Demo">
+  </a>
+</p>
 
 ---
 
